@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fund_app/Examples/checkboxtile.dart';
-import 'package:fund_app/Examples/stack.dart';
+import 'package:fund_app/Examples/textfield.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExStack(),
+      home: ExTextField(),
     );
   }
 }
