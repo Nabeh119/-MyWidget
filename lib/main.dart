@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fund_app/Examples/textfield.dart';
+import 'package:fund_app/Examples/appbar.dart';
+import 'package:fund_app/Examples/drawer.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExTextField(),
+      home: ExDrawer(),
     );
   }
 }
