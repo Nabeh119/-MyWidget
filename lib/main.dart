@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fund_app/Examples/tapbar.dart';
+import 'package:fund_app/Examples/pageview.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExTapBar(),
+      home: ExPageview(),
     );
   }
 }
